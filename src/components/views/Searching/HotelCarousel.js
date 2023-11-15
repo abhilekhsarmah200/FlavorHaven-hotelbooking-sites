@@ -136,9 +136,8 @@ const HotelCarousel = ({ hotels }) => {
       )}
       <Dialog
         header={selectedHotel?.name}
-        className='text-center'
+        className='text-center md:w-[50vw] w-[100vw]'
         visible={visible}
-        style={{ width: '50vw' }}
         onHide={closeDialog}
         draggable={false}
       >
