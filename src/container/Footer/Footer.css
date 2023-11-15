@@ -1,0 +1,34 @@
+/* Footer.css */
+.footer-container {
+  background-color: #333;
+  color: #c5912d;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #eec881;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Add styles for social media icons if using font-awesome or other icon library */
+.footer-social i {
+  font-size: 1.5rem;
+}
+
+.footer-social a:hover {
+  color: white; /* Change the color on hover */
+}
